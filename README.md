@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-08-24
+**Last Updated:** 2026-08-25
 
 ---
 
@@ -23,7 +23,18 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-User Safety: safe
+**Risk Commentary:**  
+Market conditions remain stable with moderate risk appetite. Equities show resilience above key moving averages, while volatility stays range-bound. Bond yields continue to offer competitive income relative to equities, maintaining a favorable backdrop for fixed income.
+
+**Market Summary:**
+- **VIX**: Holds at 15.85, indicating low volatility and stable investor sentiment  
+- **SPY**: Trading above its 200-day MA (763.47 vs. 707.99), confirming an uptrend  
+- **QQQ**: Also above its 100-day MA (706.32 vs. 696.15), signaling tech sector strength  
+- **Mortgage Rate**: 6.65%; condition is **Neutral**, reflecting stable housing finance conditions  
+- **Income Spread**: SP dividend yield (0.98%) vs. 10Y yield (4.70%) = **-3.72%** → favors **bonds**; regime classified as “Bond Yield Advantage”  
+- **Bond Yields**: 10Y at 4.70% provides attractive income relative to equities  
+- **OVX**: At 46.74, in “low” regime, suggesting subdued commodity volatility  
+- **Raw data available in `/data`**
 
 ---
 
