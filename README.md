@@ -23,7 +23,17 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+**Risk Commentary:**  
+Market conditions remain stable amid a recovery regime, with equities trading above key moving averages and volatility subdued. Risk appetite persists as bond yields stay elevated but income spreads continue to favor fixed income, tempering aggressive positioning.
+
+**Market Summary:**
+
+- **Mortgage**: Rate at 6.65%; condition is Neutral — stable  
+- **Income Spread**: SP dividend yield at 0.98% vs. 10-year yield at 4.64%; spread is -3.66% — favoring **bonds**  
+- **VIX**: At 15.45, indicating low volatility — stable  
+- **SPY Trend**: Trading at 765.91, above 200-day MA of 708.43 — bullish; stable  
+- **Yield Context**: 10-year yield at 4.66%; TNX stable within recent range  
+- **Raw data available in /data**
 
 ---
 
