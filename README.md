@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-08-29
+**Last Updated:** 2026-08-31
 
 ---
 
@@ -23,17 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk commentary**  
-The market remains in a recovery phase with low volatility (VIX 14.43) and stable fundamentals. SPY is trading above its 200‑day moving average, indicating an up‑trend, while the mortgage market is neutral at 6.66% and the income spread shows a bond‑yield advantage, suggesting equities are less attractive relative to bonds at present. Conditions are unchanged and stable.
-
-**Market summary**  
-- Mortgage rate: **6.66%**, condition **Neutral** – stable.  
-- Income spread (S&P dividend yield 0.98% vs 10‑yr Treasury 4.67%) = **‑3.69%**, **Bond Yield Advantage** – **favors bonds**.  
-- VIX at **14.43** signals low volatility, supporting the recovery outlook.  
-- SPY price **769.35** is above its **ma200 (709.85)**, indicating an upward trend; market conditions are **stable**.  
-- Yield context: **TNX yield 4.72%**, providing a relatively high‑yield backdrop.  
-
-*Raw data available in /data.*
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
