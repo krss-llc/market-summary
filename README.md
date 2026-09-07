@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-04
+**Last Updated:** 2026-09-07
 
 ---
 
@@ -24,16 +24,18 @@ Seek out the information you need for your future self!
 ## AI Risk Commentary
 
 **Risk commentary**  
-The market is in a recovery phase with equities trading above their longer‑term moving averages, VIX subdued, and bond yields holding near 4.8%—creating a clear yield advantage over equity dividends. Mortgage rates remain neutral at 6.71% and overall conditions appear stable relative to the prior period.
+The market stays in a recovery phase with stable, unchanged conditions. SPY trades above its 200‑day moving average, VIX remains modest, and mortgage rates are neutral, suggesting a balanced outlook with modest upside risk.
 
 **Market summary**  
-- SPY price 773.17 > 200‑day MA 711.63 → bullish trend.  
-- QQQ price 717.67 > 100‑day MA 705.34 → short‑term strength.  
-- ARKK +16.98% over three months.  
-- VIX 14.32 (low) → limited near‑term tail risk.  
-- 10‑yr Treasury yield (TNX) 4.78% (≈ 4.77% from income spread) → provides a yield advantage.  
-- Mortgage rate 6.71%, condition Neutral (stable).  
-- Income spread: S&P dividend yield
+- SPY price 770.19 vs. ma200 712.15 → bullish trend, recovery intact (stable).  
+- QQQ price 718.96 vs. ma100 706.25 → modest upward momentum.  
+- ARKK +13.63% over the past three months, indicating strong performance in innovative equities.  
+- VIX level 14.53 → low volatility, supportive of risk‑on sentiment.  
+- TNX yield 4.78% → elevated Treasury yields keep funding costs high.  
+- OVX level 44.96, regime “low” → equity volatility remains subdued.  
+- Mortgage rate 6.71% with condition “Neutral” → financing environment unchanged.  
+- Income spread: SP dividend yield 0.98 vs. 10‑yr yield 4.77, spread –3.79 → **favors bonds over equities**.  
+- Overall regime: Recovery, conditions stable; raw data available in `/data`.
 
 ---
 
