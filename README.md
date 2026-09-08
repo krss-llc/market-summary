@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-07
+**Last Updated:** 2026-09-08
 
 ---
 
@@ -23,19 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk commentary**  
-The market stays in a recovery phase with stable, unchanged conditions. SPY trades above its 200‑day moving average, VIX remains modest, and mortgage rates are neutral, suggesting a balanced outlook with modest upside risk.
-
-**Market summary**  
-- SPY price 770.19 vs. ma200 712.15 → bullish trend, recovery intact (stable).  
-- QQQ price 718.96 vs. ma100 706.25 → modest upward momentum.  
-- ARKK +13.63% over the past three months, indicating strong performance in innovative equities.  
-- VIX level 14.53 → low volatility, supportive of risk‑on sentiment.  
-- TNX yield 4.78% → elevated Treasury yields keep funding costs high.  
-- OVX level 44.96, regime “low” → equity volatility remains subdued.  
-- Mortgage rate 6.71% with condition “Neutral” → financing environment unchanged.  
-- Income spread: SP dividend yield 0.98 vs. 10‑yr yield 4.77, spread –3.79 → **favors bonds over equities**.  
-- Overall regime: Recovery, conditions stable; raw data available in `/data`.
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 

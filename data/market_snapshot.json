@@ -11,10 +11,10 @@
     "three_month_change_percent": 13.63
   },
   "VIX": {
-    "level": 14.53
+    "level": 15.3
   },
   "TNX": {
-    "yield": 4.78
+    "yield": 4.81
   },
   "OVX": {
     "level": 44.96,
@@ -26,8 +26,8 @@
   },
   "income_spread": {
     "sp_div_yield": 0.98,
-    "ten_year_yield": 4.77,
-    "spread": -3.79,
+    "ten_year_yield": 4.78,
+    "spread": -3.8,
     "regime": "Bond Yield Advantage"
   }
 }
