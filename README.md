@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-09
+**Last Updated:** 2026-09-10
 
 ---
 
@@ -23,20 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk Commentary**  
-The recovery remains well-entrenched, supported by sustained equity momentum, subdued volatility, and a steep yield curve. While interest rate pressures persist, the negative income spread suggests bonds currently offer better relative value than equities for income-focused investors. Mortgage rates remain neutral but elevated, signaling cautious housing demand. Market stability is reinforced by unchanged risk-off metrics like the VIX.  
-
-**Market Summary**  
-- **SPY**: Trading 7.7% above its 200-day MA, signaling a bullish trend.  
-- **QQQ**: 1.5% above its 100-day MA, indicating tech sector strength.  
-- **ARKK**: Up 14.77% over 3 months, highlighting innovation-driven gains.  
-- **VIX**: At 15.72, reflecting low volatility amid recovery optimism.  
-- **TNX Yield**: 4.84% amid a steep yield curve, supporting risk assets.  
-- **Mortgage Rate**: 6.71% (Neutral condition), stable but restrictive for housing.  
-- **Income Spread**: SPY dividend yield (0.99%) underperforms 10Y yield (4.8%), favoring bonds.  
-- **OVX**: At 48.59 (Low regime), oil price stability is maintained.  
-
-Raw data and calculations are available in /data.
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
