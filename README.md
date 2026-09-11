@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-10
+**Last Updated:** 2026-09-11
 
 ---
 
@@ -23,7 +23,19 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+**Risk Commentary**
+The Recovery regime remains intact. SPY trades well above its 200-day moving average, ARKK's three-month gain signals returning risk appetite, and VIX sits at a calm 17.84. However, the income spread continues to favor bonds over equities, and mortgage conditions remain unfavorable — key reminders that the macro backdrop is not uniformly supportive. Conditions are stable relative to the prior snapshot.
+
+**Market Summary**
+- **SPY trend:** Price at 757.83 sits above the 200-day MA of 713.71 — bullish trend intact.
+- **VIX:** At 17.84, reflecting subdued fear and a risk-on environment.
+- **Yield context:** 10Y Treasury yield (TNX) at 4.95%; QQQ marginally above its 100-day MA at 708.69 vs. 708.41.
+- **Mortgage rate:** 6.76% — Unfavorable; unchanged from prior period.
+- **Income spread:** SP dividend yield (0.98%) vs. 10Y yield (4.95%) produces a spread of -3.97% — **this favors bonds** (Bond Yield Advantage regime).
+- **OVX:** At 60.76, mid regime — oil volatility moderate.
+- **ARKK:** Three-month change of +10.07%, consistent with recovery dynamics.
+
+Raw data available in `/data`.
 
 ---
 
