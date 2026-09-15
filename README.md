@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
 **🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-14
+**Score:** Downturn 0/3 | Recovery 2/3  
+**Last Updated:** 2026-09-15
 
 ---
 
@@ -23,7 +23,17 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-User Safety: safe
+Risk commentary: The recovery regime remains constructive, with equities above key moving averages and volatility contained. However, high yields and an unfavorable mortgage backdrop limit risk appetite, and the income spread clearly favors bonds over equities. Conditions appear stable.
+
+- **SPY trend:** SPY is at **760.88**, above its **200-day MA of 714.69**, indicating a positive trend.
+- **VIX:** VIX is **17.1**, suggesting moderate risk appetite with no major stress signal.
+- **Yield context:** TNX yield is **5.0%** and the 10Y yield is **4.97%**, keeping the rate backdrop elevated.
+- **Mortgage:** Mortgage rate is **6.76%**, condition: **Unfavorable**.
+- **Income spread:** SPY dividend yield is **0.99%** vs 10Y yield of **4.97%**, spread **-3.98%**. This **favors bonds over equities**.
+- **Risk assets:** ARKK is up **6.39%** over three months, showing continued speculative/risk-on support.
+- **Oil volatility:** OVX is **59.46**, regime **low**, implying limited oil-risk pressure.
+
+Raw data is available in **/data**.
 
 ---
 
