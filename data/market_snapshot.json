@@ -14,7 +14,7 @@
     "level": 15.44
   },
   "TNX": {
-    "yield": 4.95
+    "yield": 5.0
   },
   "OVX": {
     "level": 52.11,
@@ -26,8 +26,8 @@
   },
   "income_spread": {
     "sp_div_yield": 0.99,
-    "ten_year_yield": 5.01,
-    "spread": -4.02,
+    "ten_year_yield": 4.94,
+    "spread": -3.95,
     "regime": "Bond Yield Advantage"
   }
 }

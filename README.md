@@ -23,18 +23,22 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk Commentary**  
-The market remains in a recovery regime with equities above key moving averages and volatility subdued. However, restrictive mortgage rates and a deeply negative income spread signal persistent headwinds for rate-sensitive sectors and equity income appeal. Bond yields continue to offer a compelling alternative to dividend yields.
+ **Risk Commentary**
 
-**Market Summary**
-- **SPY Trend**: Price ($762.6) > MA200 ($715.87) — uptrend intact  
-- **VIX**: 15.44 — low, stable volatility environment  
-- **Yield Context**: 10Y yield at 4.95% (TNX), income spread at -4.02% (SPY div yield 0.99% vs 10Y 5.01%) — **favors bonds**  
-- **Mortgage Rate**: 6.95%, condition **Unfavorable** — stable  
-- **ARKK**: +8.39% 3M — risk-on momentum persistent  
-- **OVX**: 52.11, regime low — stable oil volatility  
+The market remains in a Recovery regime supported by a solid SPY uptrend (price above the 200-day) and a sub-16 VIX suggesting low near-term fear. However, the income spread is deeply negative at -3.95% (0.99% dividend yield vs 4.94% 10-year yield), which explicitly favors bonds over equities on an income basis — a headwind for equity valuation, particularly in higher-multiple growth names. Mortgage rates at 6.95% remain unfavorable, pressuring housing/refinancing activity. Overall conditions appear stable versus the prior snapshot; no material deterioration or improvement signaled.
 
-*Raw data available in /data*
+**Bullet-Point Market Summary**
+
+- 🟢 **Regime:** Recovery (unchanged) — risk appetite supported by ARKK up +8.4% over 3 months.
+- 📈 **SPY trend:** Uptrend — trading at $762.6, well above the 200-day MA ($715.87).
+- 😌 **VIX:** 15.44 — low volatility environment, suggesting market complacency.
+- 🏠 **Mortgage:** 6.95% rate — condition **Unfavorable** (stable) — a drag on housing affordability.
+- 💰 **Income spread:** SPY div yield 0.99% vs 10Y yield 4.94% (-3.95% spread) — this **explicitly favors bonds over equities** on an income basis.
+- 📊 **Yield context:** TNX at 5.0% — elevated, reinforcing the bond income advantage.
+- 🛢️ **OVX:** 52.11 (low regime) — stable oil volatility, supportive of risk sentiment.
+- 📁 **Raw data:** Available in `/data`.
+
+Conditions are stable overall; the bond-vs-equity income spread remains the main structural negative for stocks.
 
 ---
 
