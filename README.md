@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
 **🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-09-16
+**Score:** Downturn 0/3 | Recovery 3/3  
+**Last Updated:** 2026-09-18
 
 ---
 
@@ -23,20 +23,18 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk Commentary**
-The market sits in a 🟢 Recovery regime, with SPY trading well above its 200-day moving average, signaling constructive momentum. However, the income spread at –4.0% strongly favors bonds over equities, and a 6.76% mortgage rate remains unfavorable for housing demand. VIX at 17.2 suggests complacency is not yet a concern, but yield environment at ~5.0% continues to pressure risk appetite. Conditions appear stable relative to prior observations.
+**Risk Commentary**  
+The market remains in a recovery regime with equities above key moving averages and volatility subdued. However, restrictive mortgage rates and a deeply negative income spread signal persistent headwinds for rate-sensitive sectors and equity income appeal. Bond yields continue to offer a compelling alternative to dividend yields.
 
 **Market Summary**
-- **SPY trend:** Price at 757.39, comfortably above the 200-day MA of 715.11 — bullish trend intact.
-- **QQQ:** Price at 704.54, trading below its 100-day MA of 710.24 — modest tech lag.
-- **VIX:** At 17.2, reflecting calm but not complacent market conditions.
-- **Yield context:** 10-year yield at ~5.0% (TNX: 5.01%), keeping income attractiveness elevated.
-- **Mortgage rate:** 6.76% — condition remains **Unfavorable**.
-- **Income spread:** SP dividend yield (1.0%) vs. 10-year yield (5.0%) = **–4.0% spread**, explicitly favoring **bonds** (Bond Yield Advantage regime).
-- **ARKK:** Three-month change at +5.58%, showing modest recovery in innovation-linked names.
-- **OVX:** At 61.73, regime classified as mid.
+- **SPY Trend**: Price ($762.6) > MA200 ($715.87) — uptrend intact  
+- **VIX**: 15.44 — low, stable volatility environment  
+- **Yield Context**: 10Y yield at 4.95% (TNX), income spread at -4.02% (SPY div yield 0.99% vs 10Y 5.01%) — **favors bonds**  
+- **Mortgage Rate**: 6.95%, condition **Unfavorable** — stable  
+- **ARKK**: +8.39% 3M — risk-on momentum persistent  
+- **OVX**: 52.11, regime low — stable oil volatility  
 
-Raw data available in `/data`.
+*Raw data available in /data*
 
 ---
 
