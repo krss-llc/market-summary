@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-18
+**Last Updated:** 2026-09-21
 
 ---
 
@@ -23,22 +23,60 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
- **Risk Commentary**
+Here's a thinking process:
 
-The market remains in a Recovery regime supported by a solid SPY uptrend (price above the 200-day) and a sub-16 VIX suggesting low near-term fear. However, the income spread is deeply negative at -3.95% (0.99% dividend yield vs 4.94% 10-year yield), which explicitly favors bonds over equities on an income basis — a headwind for equity valuation, particularly in higher-multiple growth names. Mortgage rates at 6.95% remain unfavorable, pressuring housing/refinancing activity. Overall conditions appear stable versus the prior snapshot; no material deterioration or improvement signaled.
+1.  **Analyze Requirements:**
+   - **Market regime**: 🟢 Recovery (given)
+   - **Output format**: Short risk commentary + bullet-point market summary
+   - **Specific data points to include explicitly**:
+     - Mortgage rate and condition
+     - Income spread (SP dividend yield vs 10Y) and state whether it favors bonds or equities
+     - VIX level
+     - SPY trend (relative to MA200)
+     - Yield context (TNX yield mentioned)
+   - **Additional**: If conditions are unchanged, say they are stable
+   - **Constraints**: Concise, consistent tone, mention raw data available in /data
 
-**Bullet-Point Market Summary**
+2.  **Extract & Interpret Data from Snapshot:**
+   - SPY: price 761.69, ma200 716.28 → Price > MA200, uptrend
+   - QQQ: price 721.45, ma100 711.87 → Price > MA100, uptrend
+   - ARKK: 3-month change +12.5% → Strong performance
+   - VIX: 14.81 → Low volatility
+   - TNX: 4.96% → 10-year yield context
+   - OVX: 50.39, regime "low" → Low commodities volatility
+   - Mortgage: rate 6.95%, condition "Unfavorable" → Explicitly required
+   - Income spread: sp_div_yield 0.98%, ten_year_yield 5.01%, spread -4.03%, regime "Bond Yield Advantage" → Bonds favored (negative spread means bond yield > equity yield, favoring bonds)
 
-- 🟢 **Regime:** Recovery (unchanged) — risk appetite supported by ARKK up +8.4% over 3 months.
-- 📈 **SPY trend:** Uptrend — trading at $762.6, well above the 200-day MA ($715.87).
-- 😌 **VIX:** 15.44 — low volatility environment, suggesting market complacency.
-- 🏠 **Mortgage:** 6.95% rate — condition **Unfavorable** (stable) — a drag on housing affordability.
-- 💰 **Income spread:** SPY div yield 0.99% vs 10Y yield 4.94% (-3.95% spread) — this **explicitly favors bonds over equities** on an income basis.
-- 📊 **Yield context:** TNX at 5.0% — elevated, reinforcing the bond income advantage.
-- 🛢️ **OVX:** 52.11 (low regime) — stable oil volatility, supportive of risk sentiment.
-- 📁 **Raw data:** Available in `/data`.
+   - Regime: 🟢 Recovery (given)
 
-Conditions are stable overall; the bond-vs-equity income spread remains the main structural negative for stocks.
+3.  **Draft - Section by Section:**
+
+   **Risk Commentary:**
+   - Keep it short, tie in regime, volatility, spread, mortgage.
+   - Regime is Recovery, VIX low at 14.81, spread favors bonds, mortgage unfavorable at 6.95%.
+   - "Markets are in a Recovery regime with equities trading above key moving averages, though credit conditions remain tight with mortgage rates at 6.95% and unfavorable. The income spread continues to favor bonds over equities, holding at -4.03% as the 10-year yield outperforms S&P dividends. Low VIX readings suggest complacency, but the bond yield advantage warrants caution on equity duration."
+
+   **Bullet-Point Market Summary:**
+   - Need to include explicitly:
+     * Mortgage rate: 6.95% and condition "Unfavorable"
+     * Income spread: sp_div_yield 0.98% vs ten_year_yield 5.01%, spread -4.03%, and state it favors bonds
+     * VIX: 14.81
+     * SPY trend: price 761.69 vs ma200 716.28 (uptrend)
+     * Yield context: TNX 4.96%
+     * Note: conditions stable? The prompt says "If conditions are unchanged, say they are stable". Looking at data, nothing indicates change, so I should add "conditions are stable" or similar. Actually, re-read: "If conditions are unchanged, say they are stable". The data is a snapshot, so I'll assume stable and mention it, or just naturally incorporate. I'll add a line or note about stability.
+   - Let's structure bullets clearly:
+     - SPY: $761.69, above MA200 ($716.28) → bullish trend
+     - QQQ: $721.45, above MA100 ($711.87) → momentum intact
+     - VIX at 14.81 → low volatility environment
+     - TNX yield 4.96% → elevated rate backdrop
+     - Mortgage rate 6.95%, condition "Unfavorable" → pressuring housing affordability
+     - Income spread: S&P div yield 0.98% vs 10Y 5.01%, spread -4.03% → **favors bonds** over equities
+     - ARKK +12.5% 3-month → strong risk-on sentiment
+     - Conditions are stable
+
+   - Check requirements:
+     * Mortgage rate and condition explicitly in bullets ✓
+     * Income spread explicitly in bullets, state favors bonds
 
 ---
 
