@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-24
+**Last Updated:** 2026-09-25
 
 ---
 
@@ -23,18 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk commentary:**  
-The recovery regime remains constructive, with SPY trending above its 200-day moving average and VIX contained. However, elevated yields and an unfavorable mortgage backdrop keep rate-sensitive risks elevated. Current conditions appear stable, but income spread clearly favors bonds over equities.
-
-**Market summary:**
-- **Regime:** 🟢 Recovery; conditions stable from the current snapshot.
-- **SPY trend:** SPY at **767.81** vs. **MA200 717.61**, confirming a positive trend.
-- **Volatility:** VIX at **14.21**, indicating contained equity volatility.
-- **Yield context:** TNX at **5.16%** and 10Y at **5.11%**, keeping bond yields attractive.
-- **Income spread:** S&P dividend yield **0.99%** vs. 10Y yield **5.11%**, spread **-4.12%**; income spread **favors bonds over equities**.
-- **Mortgage:** Mortgage rate **7.03%**, condition **Unfavorable**.
-- **Risk appetite:** QQQ above MA100 and ARKK up **17.29%** over three months support recovery sentiment.
-- **Raw data:** Available in `/data`.
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
