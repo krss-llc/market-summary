@@ -88,6 +88,39 @@ def chart_vix(data):
     save(fig, "vix")
 
 
+def chart_move(data):
+    df = trim(data["MOVE"].copy())
+    df["ma50"] = df["close"].rolling(50).mean()
+    latest = float(df["close"].iloc[-1])
+
+    if latest < 60:
+        label, color = "Highly Stable", "green"
+    elif latest >= 100:
+        label, color = "Aggressive Volatility", "red"
+    else:
+        label, color = "Elevated", "yellow"
+
+    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(df["date"], df["close"], label="MOVE", color="black")
+    ax.plot(df["date"], df["ma50"], label="50MA", color="orange")
+    ax.axhspan(0, 60, color="green", alpha=0.1)
+    ax.axhspan(100, max(140, float(df["close"].max())), color="red", alpha=0.1)
+    ax.axhline(60, linestyle="--", color="black", linewidth=1)
+    ax.axhline(100, linestyle="--", color="black", linewidth=1)
+    ax.fill_between(
+        df["date"],
+        df["close"],
+        df["ma50"],
+        where=df["close"] > df["ma50"],
+        color="red",
+        alpha=0.2,
+    )
+    add_regime_label(ax, label, color)
+    ax.set_title("MOVE Regime + 50-Day Moving Average")
+    ax.legend()
+    save(fig, "move")
+
+
 def chart_tnx(data):
     df = trim(data["TNX"].copy())
     latest = float(df["close"].iloc[-1])
@@ -258,6 +291,7 @@ def generate_all_charts(data, macro_data=None):
     chart_qqq(data)
     chart_arkk(data)
     chart_vix(data)
+    chart_move(data)
     chart_tnx(data)
     chart_ovx(data)
     chart_mortgage(macro_data)

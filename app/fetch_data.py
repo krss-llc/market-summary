@@ -83,6 +83,30 @@ def get_ovx():
 
     return df[["date", "close"]]
 
+
+def get_move():
+    """
+    Fetches ICE BofA MOVE index using yfinance.
+    Normalizes output to [date, close].
+    """
+    ticker = yf.Ticker("^MOVE")
+    df = ticker.history(period="2y")
+
+    if df.empty:
+        raise ValueError("yfinance returned an empty DataFrame for ^MOVE")
+
+    df = df.reset_index()
+    df.columns = df.columns.str.lower()
+
+    if "date" not in df.columns or "close" not in df.columns:
+        raise ValueError(f"Unexpected ^MOVE schema: columns={list(df.columns)}")
+
+    df["date"] = pd.to_datetime(df["date"], errors="coerce", utc=True).dt.tz_convert(None)
+    df["close"] = pd.to_numeric(df["close"], errors="coerce")
+    df = df.dropna(subset=["date", "close"])
+
+    return df[["date", "close"]]
+
 def get_tnx():
     """
     Fetches the 10-Year Treasury Yield using yfinance.

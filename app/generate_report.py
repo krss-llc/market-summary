@@ -8,7 +8,7 @@ from datetime import datetime, UTC
 
 from openai import OpenAI
 
-from fetch_data import get_daily, get_vix, get_ovx, get_tnx, get_macro_data
+from fetch_data import get_daily, get_vix, get_ovx, get_move, get_tnx, get_macro_data
 from signals import compute_signals
 from generate_charts import generate_all_charts
 
@@ -45,6 +45,7 @@ fetch_tasks = {
     "ARKK": lambda: get_daily("ARKK"),
     "VIX": get_vix,
     "OVX": get_ovx,
+    "MOVE": get_move,
     "TNX": get_tnx
 }
 
@@ -291,6 +292,9 @@ readme = f"""
 
 ### VIX
 ![VIX](charts/vix.png)
+
+### MOVE
+![MOVE](charts/move.png)
 
 ### 10Y Yield
 ![TNX](charts/tnx.png)
