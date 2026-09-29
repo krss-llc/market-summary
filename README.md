@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
 **🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-09-16
+**Score:** Downturn 0/3 | Recovery 3/3  
+**Last Updated:** 2026-09-28
 
 ---
 
@@ -23,20 +23,66 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk Commentary**
-The market sits in a 🟢 Recovery regime, with SPY trading well above its 200-day moving average, signaling constructive momentum. However, the income spread at –4.0% strongly favors bonds over equities, and a 6.76% mortgage rate remains unfavorable for housing demand. VIX at 17.2 suggests complacency is not yet a concern, but yield environment at ~5.0% continues to pressure risk appetite. Conditions appear stable relative to prior observations.
+Here's a thinking process:
 
-**Market Summary**
-- **SPY trend:** Price at 757.39, comfortably above the 200-day MA of 715.11 — bullish trend intact.
-- **QQQ:** Price at 704.54, trading below its 100-day MA of 710.24 — modest tech lag.
-- **VIX:** At 17.2, reflecting calm but not complacent market conditions.
-- **Yield context:** 10-year yield at ~5.0% (TNX: 5.01%), keeping income attractiveness elevated.
-- **Mortgage rate:** 6.76% — condition remains **Unfavorable**.
-- **Income spread:** SP dividend yield (1.0%) vs. 10-year yield (5.0%) = **–4.0% spread**, explicitly favoring **bonds** (Bond Yield Advantage regime).
-- **ARKK:** Three-month change at +5.58%, showing modest recovery in innovation-linked names.
-- **OVX:** At 61.73, regime classified as mid.
+1.  **Analyze the Request:**
+   - **Market regime**: 🟢 Recovery
+   - **Snapshot data** provided with various tickers and metrics
+   - **Output requirements**: 
+     - Short risk commentary
+     - Bullet-point market summary
+     - Must include mortgage rate and condition explicitly in bullets
+     - Must include income spread (SP dividend yield vs 10Y) explicitly in bullets
+     - Must explicitly state whether income spread favors bonds or equities
+     - Must include VIX, SPY trend, and yield context
+     - If conditions are unchanged, say they are stable
+     - Concise and consistent tone
+     - Mention raw data is available in /data
 
-Raw data available in `/data`.
+2.  **Extract Key Data Points from Snapshot:**
+   - SPY: price 771.35, ma200 718.45 → SPY > MA200, uptrend
+   - QQQ: price 744.5, ma100 715.69 → QQQ > MA100, uptrend
+   - ARKK: three_month_change_percent 12.58 → strong performance
+   - VIX: level 14.87 → low volatility
+   - TNX: yield 5.24 → 10Y tenor yield context
+   - OVX: level 55.09, regime "low" → low commodity volatility
+   - mortgage: rate 7.03, condition "Unfavorable" → key requirement
+   - income_spread: sp_div_yield 0.99, ten_year_yield 5.17, spread -4.18, regime "Bond Yield Advantage" → crucial for equity vs bond favorability
+
+3.  **Determine Implications/Interpretation:**
+   - Regime: Recovery (given as 🟢 Recovery)
+   - SPY above MA200 → bullish trend
+   - VIX at 14.87 → low fear, stable environment
+   - Mortgage rate 7.03, condition "Unfavorable" → headwind for housing/consumers
+   - Income spread: SP div yield 0.99% vs 10Y yield 5.17%, spread -4.18% → negative spread means bonds yield more than equities dividends. Regime labeled "Bond Yield Advantage" → favors bonds explicitly.
+   - TNX 5.24 aligns with 10Y at 5.17
+   - ARKK up 12.58% 3M → risk-on in growth/tech
+   - OVX low → low ag/commodity volatility
+
+4.  **Draft - Step-by-Step:**
+
+   **Risk Commentary:** 
+   Concise, sets tone. Mention regime, VIX, mortgage, spread. Conditions stable given data consistency.
+
+   **Bullet-point Market Summary:**
+   - Must include: mortgage rate 7.03 + condition "Unfavorable" explicitly
+   - Must include: income spread sp_div_yield 0.99 vs ten_year_yield 5.17, spread -4.18, explicitly state favors bonds
+   - Must include: VIX 14.87, SPY trend (price vs ma200), yield context (TNX/10Y)
+   - Note raw data in /data
+   - If unchanged, say stable
+
+   Let's structure bullets:
+   - SPY trades at 771.35, above its 200-day MA of 718.45, confirming an uptrend in the recovery regime.
+   - VIX at 14.87 reflects low volatility, supporting risk-on sentiment.
+   - Mortgage rate at 7.03% remains in "Unfavorable" condition, pressuring housing affordability and consumer spending.
+   - Income spread: S&P dividend yield of 0.99% versus 10-year Treasury yield of 5.17% yields a negative spread of -4.18%, explicitly favoring bonds over equities for income seekers.
+   - TNX yield of 5.24% aligns with the 10Y backdrop, reinforcing the bond yield advantage.
+   - ARKK is up 12.58% over three months, indicating strong momentum in growth/tech names.
+   - OVX at 55.09 in "low" regime signals contained commodity volatility.
+
+   Add note about raw data /data and stable conditions.
+
+
 
 ---
 
