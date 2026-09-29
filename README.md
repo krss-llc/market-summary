@@ -23,7 +23,14 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-User Safety: safe
+Risk commentary: Recovery conditions appear stable, with SPY above its 200-day trend and volatility controlled. The main risk is high fixed rates — especially mortgages — which remain unfavorable and limit growth/multiple expansion. Bond income currently offers a stronger relative yield advantage.
+
+- Market regime: 🟢 Recovery, stable  
+- SPY trend: constructive — price 765.61 vs 200-day MA 718.86  
+- VIX: 16.07, low/controlled  
+- MOVE/OVX equity vol: 56.11, low  
+- Yield context: high-rate environment — TNX at 5.26%, 10Y around 5.24%  
+- Mortgage rate: 7
 
 ---
 
