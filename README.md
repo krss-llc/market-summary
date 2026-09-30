@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-29
+**Last Updated:** 2026-09-30
 
 ---
 
@@ -23,14 +23,17 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Risk commentary: Recovery conditions appear stable, with SPY above its 200-day trend and volatility controlled. The main risk is high fixed rates — especially mortgages — which remain unfavorable and limit growth/multiple expansion. Bond income currently offers a stronger relative yield advantage.
+**Risk commentary**  
+Equities are in a recovery phase, with SPY trading above its 200‑day moving average and QQQ holding a similar uptrend. Volatility remains low (VIX 16.04) and the OVX regime signals a stable MOVE, while the 10‑year Treasury yield stays elevated (≈5.3%). The high mortgage rate (7.03%, “Unfavorable”) continues to weigh on housing affordability, and the negative dividend‑yield spread indicates that bonds currently offer a relative advantage.
 
-- Market regime: 🟢 Recovery, stable  
-- SPY trend: constructive — price 765.61 vs 200-day MA 718.86  
-- VIX: 16.07, low/controlled  
-- MOVE/OVX equity vol: 56.11, low  
-- Yield context: high-rate environment — TNX at 5.26%, 10Y around 5.24%  
-- Mortgage rate: 7
+**Market summary**  
+- SPY price 764.2 > MA200 719.25 → bullish trend; QQQ also above its 100‑day MA.  
+- VIX 16.04 and OVX 53.74 (low regime) indicate stable, low‑volatility conditions (MOVE remains calm).  
+- Mortgage rate 7.03% (Unfavorable) – housing market headwind.  
+- Income spread: SP dividend yield 0.99% vs 10‑year Treasury 5.26% (spread ‑4.27) → **bonds favored**.  
+- Yield context: 10‑year Treasury yield 5.29% (TNX) underpins a higher‑rate environment.  
+
+*Raw data available in /data.*
 
 ---
 
