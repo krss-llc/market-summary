@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-09-30
+**Last Updated:** 2026-10-01
 
 ---
 
@@ -23,17 +23,21 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk commentary**  
-Equities are in a recovery phase, with SPY trading above its 200‑day moving average and QQQ holding a similar uptrend. Volatility remains low (VIX 16.04) and the OVX regime signals a stable MOVE, while the 10‑year Treasury yield stays elevated (≈5.3%). The high mortgage rate (7.03%, “Unfavorable”) continues to weigh on housing affordability, and the negative dividend‑yield spread indicates that bonds currently offer a relative advantage.
+**Risk Commentary**
 
-**Market summary**  
-- SPY price 764.2 > MA200 719.25 → bullish trend; QQQ also above its 100‑day MA.  
-- VIX 16.04 and OVX 53.74 (low regime) indicate stable, low‑volatility conditions (MOVE remains calm).  
-- Mortgage rate 7.03% (Unfavorable) – housing market headwind.  
-- Income spread: SP dividend yield 0.99% vs 10‑year Treasury 5.26% (spread ‑4.27) → **bonds favored**.  
-- Yield context: 10‑year Treasury yield 5.29% (TNX) underpins a higher‑rate environment.  
+Market conditions remain stable within the ongoing recovery regime. Equities continue to build upon their upward momentum, supported by a constructive technical backdrop and subdued volatility. However, persistent headwinds from elevated mortgage rates and a bond yield advantage regime cap the upside potential for risk assets. The income spread continues to favor bonds over equities, reinforcing a cautious stance despite recent price appreciation.
 
-*Raw data available in /data.*
+**Market Summary**
+- **VIX**: 16.34 – volatility remains contained, indicating investor confidence.
+- **MOVE**: Stable, reflecting calm in fixed income markets.
+- **SPY**: Trading at 762.63, above its 200-day MA of 719.62, signaling a positive trend.
+- **Yield Context**: 10-year yield at 5.29%; SP dividend yield at 0.99%, resulting in a negative income spread of -4.3% — **favoring bonds over equities**.
+- **Mortgage Rate & Condition**: 7.28% rate with “Unfavorable” conditions for housing demand.
+- **TNX**: 5.24% yield level adds pressure to equity valuations.
+- **ARKK**: Up 9.66% over three months, reflecting strength in growth sectors.
+- **OVX**: At 52.24, indicating a “low” Oil Volatility environment.
+
+Raw data available in `/data`.
 
 ---
 
