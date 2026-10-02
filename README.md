@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-01
+**Last Updated:** 2026-10-02
 
 ---
 
@@ -23,21 +23,17 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Risk Commentary**
-
-Market conditions remain stable within the ongoing recovery regime. Equities continue to build upon their upward momentum, supported by a constructive technical backdrop and subdued volatility. However, persistent headwinds from elevated mortgage rates and a bond yield advantage regime cap the upside potential for risk assets. The income spread continues to favor bonds over equities, reinforcing a cautious stance despite recent price appreciation.
-
-**Market Summary**
-- **VIX**: 16.34 – volatility remains contained, indicating investor confidence.
-- **MOVE**: Stable, reflecting calm in fixed income markets.
-- **SPY**: Trading at 762.63, above its 200-day MA of 719.62, signaling a positive trend.
-- **Yield Context**: 10-year yield at 5.29%; SP dividend yield at 0.99%, resulting in a negative income spread of -4.3% — **favoring bonds over equities**.
-- **Mortgage Rate & Condition**: 7.28% rate with “Unfavorable” conditions for housing demand.
-- **TNX**: 5.24% yield level adds pressure to equity valuations.
-- **ARKK**: Up 9.66% over three months, reflecting strength in growth sectors.
-- **OVX**: At 52.24, indicating a “low” Oil Volatility environment.
-
-Raw data available in `/data`.
+- SPY price 763.99 is above its 200‑day moving average of 720.03, showing price is above the long‑term trend.  
+- QQQ price 742.03 is above its 100‑day moving average of 717.42, showing price is above the intermediate‑term trend.  
+- ARKK has risen 5.94% over the past three months, showing positive recent performance.  
+- VIX is at 16.39, reflecting moderate implied volatility of the S&P 500.  
+- OVX is at 51.69 and is classified as a low‑volatility regime, reflecting low short‑term expected volatility.  
+- TNX yield is 5.24%, representing the 10‑year Treasury yield.  
+- Mortgage rate is 7.28% with an “Unfavorable” condition, reflecting high financing costs.  
+- Income spread shows a dividend yield of 0.99% versus a 10‑year Treasury yield of 5.29%, producing a spread of –4.3, which the regime labels “Bond Yield Advantage,” meaning the spread favors bonds over equities.  
+- The positive price‑to‑moving‑average positions for SPY and QQQ combined with low VIX and OVX reflect low expected short‑term volatility despite the high mortgage rate.  
+- The negative spread indicates that current equity dividend yield is lower than the 10‑year Treasury yield, favoring bonds.  
+- Raw data is available in /data.
 
 ---
 
