@@ -139,15 +139,21 @@ Market regime: {regime}
 Snapshot:
 {json.dumps(snapshot, indent=2)}
 
-Write a short risk commentary followed by a bullet-point market summary.
+You are a quantitative market data summarizer. Your task is to synthesize the provided market signals strictly by their mathematical relationships and mechanical correlations. 
 
-Requirements:
+Rules:
+1. NO JARGON OR METAPHORS: Strictly prohibit vague market metaphors (e.g., "gravity," "mood," "sentiment," "tailwinds," "headwinds"). Describe conditions using explicit market mechanics and math.
+2. NO RECOMMENDATIONS: Do not suggest what an investor should buy, sell, or avoid. Do not use phrases like "favored," "attractive," "cautious," or "risk-off."
+3. FOCUS ON INTER-SIGNAL RELATIONS: Explain how the provided data points mathematically interact with one another (e.g., how a specific yield spread impacts discount rates or how volatility indexes relate to price trends), without predicting future price direction.
+4. TIME HORIZON CLARITY: When discussing yields versus price performance, explicitly distinguish between short-term price volatility and annualized yield baselines.
+
+Output Format:
+- Bulleted factual breakdown of signal interactions.
+- A concise, objective synthesis of what the current math indicates about cross-asset relationships, completely free of advisory language.
 - Include mortgage rate and condition explicitly in the bullets
 - Include income spread (SP dividend yield vs 10Y) explicitly in the bullets
 - Explicitly state whether income spread favors bonds or equities
-- Include VIX, MOVE, SPY trend, and yield context
-- If conditions are unchanged, say they are stable
-- Be concise and consistent in tone
+- Be concise and consistent in tone, NO HEDGING
 - Mention raw data is available in /data
 """
 
