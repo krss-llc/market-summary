@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-05
+**Last Updated:** 2026-10-06
 
 ---
 
@@ -23,7 +23,15 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+**Bullet breakdown**
+
+- SPY price = 774.83, MA200 = 720.95 → price exceeds the 200‑day moving average by 54.88 points (≈7.6% above the average).  
+- QQQ price = 756.2, MA100 = 718.27 → price exceeds the 100‑day moving average by 37.93 points (≈5.3% above the average).  
+- ARKK three‑month change = +15.74% → the fund’s price index has risen 15.74% over the prior 90‑day window.  
+- VIX level = 15.52 → the volatility index sits at 15.52, below the typical 20+ level, indicating lower implied market volatility.  
+- OVX level = 48.65, regime = “low” → oil‑volatility index in a low regime, reflecting stable oil‑price expectations.  
+- TNX yield = 5.27% → benchmark Treasury yield at 5.27%.  
+- Mortgage rate = 7.28% with condition “Unfavorable” → borrowing cost exceeds the Treasury yield by
 
 ---
 
