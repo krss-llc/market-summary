@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-06
+**Last Updated:** 2026-10-07
 
 ---
 
@@ -23,15 +23,14 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Bullet breakdown**
+- **Equity price mechanics**: SPY is trading 57.99 points above its 200‑day moving average (779.09 vs 721.49), indicating the current price sits 8.03 % above that baseline. QQQ is 40.94 points above its 100‑day moving average (759.66 vs 718.72), a 5.70 % premium to that short‑term trend line.  
+- **Volatility context**: VIX at 15.01 reflects low implied volatility levels relative to historical norms, suggesting reduced option‑pricing premiums across equity indices.  
+- **Commodities volatility**: OVX at 48.79 with a “low” regime denotes minimal price‑swing risk in oil futures, implying stable input‑cost expectations for energy‑related sectors.  
+- **Interest‑rate environment**: TNX shows a 5.28 % yield, setting a benchmark discount rate for fixed‑income assets. The mortgage rate of 7.28 % is 190 basis points above the Treasury yield, and the “Unfavorable” condition reflects the higher financing cost relative to the risk‑free baseline.  
+- **Income‑spread mechanics**: SP dividend yield of 0.98 % versus a 5.27 % ten‑year Treasury yield produces a spread of –4.29 %. This negative spread quantifies a **bond‑yield advantage**, meaning the excess return from holding Treasuries exceeds the dividend income from equities by 429 basis points on an annualized basis.  
+- **Cross‑asset implications**: The elevated TNX yield depresses present values of future equity cash flows, while the mortgage rate premium raises the cost of capital for real‑estate leverage. The low VIX and OVX levels suggest reduced risk premiums, but the income‑spread calculation still favors bond exposure over equity income generation.  
 
-- SPY price = 774.83, MA200 = 720.95 → price exceeds the 200‑day moving average by 54.88 points (≈7.6% above the average).  
-- QQQ price = 756.2, MA100 = 718.27 → price exceeds the 100‑day moving average by 37.93 points (≈5.3% above the average).  
-- ARKK three‑month change = +15.74% → the fund’s price index has risen 15.74% over the prior 90‑day window.  
-- VIX level = 15.52 → the volatility index sits at 15.52, below the typical 20+ level, indicating lower implied market volatility.  
-- OVX level = 48.65, regime = “low” → oil‑volatility index in a low regime, reflecting stable oil‑price expectations.  
-- TNX yield = 5.27% → benchmark Treasury yield at 5.27%.  
-- Mortgage rate = 7.28% with condition “Unfavorable” → borrowing cost exceeds the Treasury yield by
+Current mathematical relationships show equities priced above medium‑term moving averages, low volatility indexes, and a bond‑yield advantage that tilts the relative return calculus toward fixed‑income assets. Raw data is available in **/data**.
 
 ---
 
