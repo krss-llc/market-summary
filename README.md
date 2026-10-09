@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-08
+**Last Updated:** 2026-10-09
 
 ---
 
@@ -23,21 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- **SPY price (777.22)** is above its **MA200 (721.99)** by **+55.23 points (+7.7%)**, indicating upward price deviation above the long-term average.
-- **QQQ price (757.73)** exceeds its **MA100 (719.1)** by **+38.63 points (+5.4%)**, showing positive short-to-medium-term momentum.
-- **ARKK’s three-month change (+10.04%)** reflects recent performance independent of broad index trends.
-- **VIX level (15.08)** remains low, implying limited near-term expected volatility in equity markets.
-- **TNX yield (5.23%)** is near multi-year highs, increasing discount rates used in equity valuations.
-- **OVX level (48.61)** with regime labeled "low" suggests oil volatility expectations are muted.
-- **Mortgage rate (7.4%)** under "Unfavorable" condition implies higher borrowing costs, which mechanically reduces housing demand and may limit household equity extraction.
-- **Income spread**: SP dividend yield (**0.98%**) vs 10-Year yield (**5.28%**) = spread of **-4.30%**, placing it in the "Bond Yield Advantage" regime — bond yields exceed dividend yields by 430 basis points.
-- The negative income spread mathematically favors bonds over equities when comparing current income flows, as bond yields exceed dividend yields on a risk-adjusted nominal basis.
-- Higher mortgage rates (**7.4%**) and rising TNX yield (**5.23%**) both apply downward pressure on valuations by increasing discount rates applied to future cash flows.
-- Low VIX (**15.08**) combined with elevated bond yields (**5.28%**) suggests compressed equity risk premiums relative to fixed-income returns.
-
----
-
-Raw data is available in `/data`.
+User Safety: safe
 
 ---
 
