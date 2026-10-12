@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-09
+**Last Updated:** 2026-10-12
 
 ---
 
@@ -23,7 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-User Safety: safe
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
