@@ -322,7 +322,7 @@ readme = f"""
 
 ## RSS Feed
 
-https://kam-reef.github.io/market-summary/feed.xml
+https://raw.githubusercontent.com/krss-llc/market-summary/refs/heads/main/docs/feed.xml
 
 ---
 
