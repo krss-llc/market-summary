@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-14
+**Last Updated:** 2026-10-15
 
 ---
 
@@ -23,12 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price 778.01 is above its 200‑day moving average 723.82 (difference +74.19 points, ≈ +10.25%).  
-- QQQ price 743.57 is above its 100‑day moving average 720.69 (difference +22.88 points, ≈ +3.17%).  
-- ARKK three‑month change +13.7% reflects a positive price return over the prior quarter.  
-- VIX level 15.27 is below its typical historical median, indicating lower implied 30‑day equity‑index volatility.  
-- OVX level 48.77 with regime “low” indicates low implied volatility for oil prices.  
-- Mortgage rate 7.4% is labeled
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
