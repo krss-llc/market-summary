@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
 **🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-16
+**Score:** Downturn 0/3 | Recovery 2/3  
+**Last Updated:** 2026-10-19
 
 ---
 
@@ -23,7 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-User Safety: safe
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
