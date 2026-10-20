@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-10-19
+**Last Updated:** 2026-10-20
 
 ---
 
@@ -23,7 +23,15 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+- SPY price (766.48) exceeds its 200-day moving average (725.44) by 5.6%, indicating the index trades above its long-term trend line
+- QQQ price (718.36) sits 0.3% below its 100-day moving average (720.62), showing the tech-heavy index below its medium-term trend line
+- ARKK three-month return of +8.26% occurred while TNX yielded 5.12%, demonstrating speculative growth appreciation despite elevated annualized risk-free rates
+- VIX at 18.44 and OVX at 50.22 (low regime) indicate compressed equity and oil volatility expectations simultaneously
+- TNX yield (5.12%) mathematically anchors the mortgage rate (7.4%, condition: Unfavorable) through the typical spread mechanism of approximately 230 basis points
+- Income spread: S&P 500 dividend yield (0.99%) minus 10-year yield (5.15%) equals -4.16%, placing the spread in "Bond Yield Advantage" regime
+- The -4.16% spread explicitly favors bonds over equities for current income generation, as the annualized Treasury yield exceeds the equity dividend yield by 416 basis points
+
+**Synthesis:** The data shows a mathematical divergence between long-term equity trend (SPY above MA200) and medium-term tech trend (QQQ below MA100), while high annualized
 
 ---
 
