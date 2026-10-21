@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-10-20
+**Last Updated:** 2026-10-21
 
 ---
 
@@ -23,15 +23,16 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price (766.48) exceeds its 200-day moving average (725.44) by 5.6%, indicating the index trades above its long-term trend line
-- QQQ price (718.36) sits 0.3% below its 100-day moving average (720.62), showing the tech-heavy index below its medium-term trend line
-- ARKK three-month return of +8.26% occurred while TNX yielded 5.12%, demonstrating speculative growth appreciation despite elevated annualized risk-free rates
-- VIX at 18.44 and OVX at 50.22 (low regime) indicate compressed equity and oil volatility expectations simultaneously
-- TNX yield (5.12%) mathematically anchors the mortgage rate (7.4%, condition: Unfavorable) through the typical spread mechanism of approximately 230 basis points
-- Income spread: S&P 500 dividend yield (0.99%) minus 10-year yield (5.15%) equals -4.16%, placing the spread in "Bond Yield Advantage" regime
-- The -4.16% spread explicitly favors bonds over equities for current income generation, as the annualized Treasury yield exceeds the equity dividend yield by 416 basis points
+- SPY price (769.05) exceeds its 200-day moving average (725.87) by 43.18 points (5.95%), placing the index above its long-term trend reference
+- QQQ price (717.63) sits 2.81 points (-0.39%) below its 100-day moving average (720.44), placing the index below its medium-term trend reference
+- ARKK three-month return of +12.99% reflects cumulative price appreciation over a 63-trading-day window
+- VIX level of 17.31 implies a 30-day expected S&P 500 volatility of approximately 17.31% annualized
+- TNX yield of 5.15% establishes the annualized risk-free discount rate baseline for present-value calculations
+- OVX level of 52.11 with "low" regime indicates crude oil implied volatility is at the lower end of its historical range
+- Mortgage rate: null; condition: Unknown
+- Income spread: SP dividend yield (0.98%) minus 10-year yield (5.15%) equals -4.17%; the negative spread indicates the 10-year Treasury yield exceeds the S&P 500 dividend yield by 417 basis points, favoring bonds for current income
 
-**Synthesis:** The data shows a mathematical divergence between long-term equity trend (SPY above MA200) and medium-term tech trend (QQQ below MA100), while high annualized
+**Synthesis:** The equity complex shows divergent trend alignment: SPY trades above its 200-day average while QQQ trades below its 100-day average. ARKK's 12.99% three-month gain represents a distinct price trajectory from the major indices. The 5.15% TNX yield exceeds the SPY dividend yield by 4.17%, creating a mathematical income advantage for Treasuries over equities. VIX at 17.31 and OVX at 52.11 (low regime) indicate moderate equity volatility expectations and low energy volatility expectations respectively. Mortgage data is unavailable. Raw data available in /data.
 
 ---
 
