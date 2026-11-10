@@ -1,11 +1,11 @@
 
 # Market Risk Monitor
 
-![Market Regime](https://img.shields.io/badge/Market%20Regime-Mixed-yellow)
+![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
-**🟡 Mixed Signals**  
-**Score:** Downturn 1/3 | Recovery 1/3  
-**Last Updated:** 2026-11-09
+**🟢 Recovery**  
+**Score:** Downturn 0/3 | Recovery 2/3  
+**Last Updated:** 2026-11-10
 
 ---
 
