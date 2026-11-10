@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
 
 **🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 3/3  
-**Last Updated:** 2026-10-13
+**Score:** Downturn 0/3 | Recovery 2/3  
+**Last Updated:** 2026-11-10
 
 ---
 
@@ -64,7 +64,7 @@ Market risk commentary: Conditions stable across monitored assets.
 
 ## RSS Feed
 
-https://kam-reef.github.io/market-summary/feed.xml
+https://raw.githubusercontent.com/krss-llc/market-summary/refs/heads/main/docs/feed.xml
 
 ---
 
