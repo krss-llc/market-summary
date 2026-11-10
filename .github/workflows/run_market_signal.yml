@@ -51,21 +51,23 @@ jobs:
           git commit -m "Update market summary"
           git push
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
+# mkdocs is EOL May 2027, use https://zensical.org/docs/compatibility/mkdocs/migration/ instead if needed.
+# Commented out for now, I do not use the gh-pages output.
+      # - name: Set up Python
+      #   uses: actions/setup-python@v6
+      #   with:
+      #     python-version: "3.12"
 
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs mkdocs-material
+      # - name: Install MkDocs
+      #   run: |
+      #     pip install mkdocs mkdocs-material
 
-      - name: Build site
-        run: |
-          mkdocs build
+      # - name: Build site
+      #   run: |
+      #     mkdocs build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./site
