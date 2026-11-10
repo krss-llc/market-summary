@@ -23,7 +23,17 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+- **SPY**: price 752.69 vs 200‑day MA 730.7 → price is ≈22 points above the long‑term moving average.  
+- **QQQ**: price 679.35 vs 100‑day MA 716.15 → price is ≈37 points below the short‑term moving average.  
+- **ARKK**: three‑month change –2.94 % (decline over the 90‑day period).  
+- **VIX**: level 19.92 (imputed volatility reading).  
+- **TNX**: yield 4.96 % (benchmark Treasury return).  
+- **OVX**: level 57.2 in a “low” volatility regime.  
+- **Mortgage**: rate 7.18 % with condition “Unfavorable” (high financing cost).  
+- **Income spread**: SP dividend yield 1.01 % vs 10‑year Treasury yield 4.86 % → spread –3.85 %; the indicated regime “Bond Yield Advantage” means bond yields exceed equity dividend yields.  
+
+**Synthesis**  
+Current data show a divergence between the two large‑cap ETFs: SPY trades above its 200‑day average while QQQ trades below its 100‑day average. Short‑term volatility (VIX 19.92) is moderate, and oil‑volatility (OVX 57.2)
 
 ---
 
