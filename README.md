@@ -23,14 +23,15 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- **SPY**: Current price 752.69 is above the 200‑day moving average of 730.7, indicating the 200‑day average price is lower than the present market price.  
-- **QQQ**: Current price 679.35 is below the 100‑day moving average of 716.15, indicating the 100‑day average price is higher than the present market price.  
-- **ARKK**: Three‑month change is –2.94 %, reflecting a decline of 2.94 % over the preceding three months.  
-- **VIX**: Level stands at 19.46, providing a snapshot of implied volatility.  
-- **OVX**: Level 53.1 with a “low” regime designation reflects current options‑volatility conditions.  
-- **TNX**: 10‑year Treasury yield is 4.98 %.  
-- **Income spread**: SP dividend yield 1.01 % minus 10‑year yield 4.88 % equals –3.87 %; the negative spread means the 10‑year yield exceeds the dividend yield by 3.87 percentage points, giving bonds a higher yield relative to equities.  
-- **Mortgage**: Rate is 7.18 % with an “Unfavorable” condition, indicating financing
+- SPY price (749.92) exceeds its 200-day moving average (730.99) by 18.93 points (2.59%), while QQQ price (674.76) sits 40.73 points (5.69%) below its 100-day moving average (715.49), creating a 8.28 percentage-point divergence between large-cap breadth measured at 200-day versus 100-day horizons
+- ARKK three-month return of -6.65% contrasts with SPY's position above its 200-day average, indicating differential performance between broad market and innovation-focused segments over the same quarterly window
+- VIX at 19.46 implies an expected annualized S&P 500 price movement of ±19.46% (one standard deviation), while OVX at 53.1 in "low" regime indicates crude oil implied volatility trades at a 33.64-point premium to equity volatility
+- TNX yield at 5.0% establishes the annualized risk-free discount rate baseline; mortgage rate at 7.18% ("Unfavorable" condition) represents a 218 basis-point spread over the 10-year Treasury, reflecting credit and prepayment risk premiums embedded in residential lending
+- Income spread: S&P 500 dividend yield (1.0%) versus 10-year Treasury yield (4.88%) produces a -3.88 percentage-point spread, mathematically favoring bonds over equities by 388 basis points in current annualized cash yield terms
+- The 4.88% ten-year yield exceeds the 1.0% equity dividend yield by a factor of 4.88x, meaning fixed income provides nearly five times the annualized cash return of equity income at current index levels
+- Raw data available in /data
+
+**Synthesis:** The mathematics show SPY trading above its long-term trend anchor (200-day MA) while QQQ trades below its intermediate trend anchor (100-day MA), an 8.28% structural divergence. The risk-free rate (5.0%) and mortgage rate (7.18%) both exceed equity dividend yield (1.0%) by 400 and 618 basis points respectively, with the income spread explicitly favoring bonds by 388 basis points. Volatility differentials (VIX 19.46 vs OVX 53.1) indicate commodity options pricing significantly higher uncertainty than equity options
 
 ---
 
