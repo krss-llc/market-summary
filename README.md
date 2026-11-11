@@ -5,7 +5,7 @@
 
 **🟢 Recovery**  
 **Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-11-10
+**Last Updated:** 2026-11-11
 
 ---
 
@@ -23,7 +23,14 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+- **SPY**: Current price 752.69 is above the 200‑day moving average of 730.7, indicating the 200‑day average price is lower than the present market price.  
+- **QQQ**: Current price 679.35 is below the 100‑day moving average of 716.15, indicating the 100‑day average price is higher than the present market price.  
+- **ARKK**: Three‑month change is –2.94 %, reflecting a decline of 2.94 % over the preceding three months.  
+- **VIX**: Level stands at 19.46, providing a snapshot of implied volatility.  
+- **OVX**: Level 53.1 with a “low” regime designation reflects current options‑volatility conditions.  
+- **TNX**: 10‑year Treasury yield is 4.98 %.  
+- **Income spread**: SP dividend yield 1.01 % minus 10‑year yield 4.88 % equals –3.87 %; the negative spread means the 10‑year yield exceeds the dividend yield by 3.87 percentage points, giving bonds a higher yield relative to equities.  
+- **Mortgage**: Rate is 7.18 % with an “Unfavorable” condition, indicating financing
 
 ---
 
