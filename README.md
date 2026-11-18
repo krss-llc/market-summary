@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Mixed-yellow)
 
 **🟡 Mixed Signals**  
-**Score:** Downturn 0/3 | Recovery 1/3  
-**Last Updated:** 2026-11-17
+**Score:** Downturn 1/3 | Recovery 1/3  
+**Last Updated:** 2026-11-18
 
 ---
 
