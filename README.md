@@ -4,8 +4,8 @@
 ![Market Regime](https://img.shields.io/badge/Market%20Regime-Downturn-red)
 
 **🔴 Downturn Risk**  
-**Score:** Downturn 2/3 | Recovery 0/3  
-**Last Updated:** 2026-11-19
+**Score:** Downturn 3/3 | Recovery 0/3  
+**Last Updated:** 2026-11-20
 
 ---
 
@@ -23,12 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price (730.2) is 2.35 points below its 200-day moving average (732.55), a -0.32% deviation
-- QQQ price (659.51) is 53.25 points below its 100-day moving average (712.76), a -7.47% deviation
-- ARKK three-month return of -17.57% coincides with TNX yield at 5.05%, reflecting high-duration equity sensitivity to the annualized risk-free rate
-- VIX level of 24.56 implies 30-day annualized volatility expectation of ~24.6%, consistent with both indices trading below their respective moving averages
-- Mortgage rate at 7.28% (condition: Unfavorable) exceeds TNX yield by 223 basis points, tightening consumer credit capacity relative to the 10-year baseline
-- Income spread: S&P 500 dividend yield (1.0
+Market risk commentary: Conditions stable across monitored assets.
 
 ---
 
