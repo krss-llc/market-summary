@@ -23,7 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+AI summary unavailable. Check the pipeline logs for OpenRouter error details.
 
 ---
 
