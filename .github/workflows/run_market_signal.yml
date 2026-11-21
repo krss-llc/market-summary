@@ -49,7 +49,18 @@ jobs:
             exit 0
           fi
           git commit -m "Update market summary"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase FETCH_HEAD
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to push generated results after $attempt attempts."
+              exit 1
+            fi
+            sleep $((attempt * 2))
+          done
 
 # mkdocs is EOL May 2027, use https://zensical.org/docs/compatibility/mkdocs/migration/ instead if needed.
 # Commented out for now, I do not use the gh-pages output.
