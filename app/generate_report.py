@@ -175,7 +175,7 @@ else:
             response = client.chat.completions.create(
                 model="openrouter/free",
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=1000
+                max_tokens=4096
             )
             if not response.choices:
                 print(
