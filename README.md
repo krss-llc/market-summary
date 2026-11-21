@@ -23,16 +23,16 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price (689.81) sits 5.86% below its 200-day moving average (732.76), indicating price below the long-term trend line
-- QQQ price (608.45) sits 14.38% below its 100-day moving average (710.68), showing a wider deviation from the medium-term trend than SPY
-- ARKK three-month return of -25.65% reflects significant drawdown in high-duration growth equities
-- VIX at 35.89 implies elevated expected 30-day S&P 500 volatility (annualized)
-- TNX yield at 4.91% sets the annualized risk-free discount rate baseline for equity valuation models
-- Mortgage rate at 7.28% with condition "Unfavorable" represents a 237 basis point spread over TNX, increasing borrowing costs for housing credit
-- Income spread: S&P dividend yield (1.1%) minus 10-year yield (5.04%) equals -3.94%; the negative spread favors bonds over equities on a current yield basis
-- OVX at 54.12 with regime "low" indicates oil volatility index level relative to its historical range
+- SPY price = 689.81; MA200 = 732.76; price is 42.95 points (5.86%) below MA200.  
+- QQQ price = 608.45; MA100 = 710.68; price is 102.23 points (14.38%) below MA100.  
+- ARKK three-month change = -25.65%; reported price return over the observation period, isolated from yield mechanics.  
+- VIX level = 35.89; index reading in percentage points.  
+- OVX level = 54.12; regime labeled "low", index reading in comparable volatility units.  
+- TNX yield = 4.91%; annualized 10-year Treasury yield baseline.  
+- Mortgage rate = 7.28%; condition labeled "Unfavorable".  
+- Income spread: sp_div_yield = 1.1%; ten_year_yield = 5.04%; spread calculated as 1.1 - 5.04 = -3.94 percentage points. The negative spread mathematically places bond yields above equity dividend yields on the given baseline.  
 
-**Synthesis:** The mathematical configuration shows equity prices (SPY, QQQ, ARKK) trading below their respective moving averages while the annualized risk-free rate (TNX 4.91%) exceeds the S&P 500 dividend yield (1.1%) by 3.94 percentage points. This yield differential increases the discount
+The dataset provides quantified price deviations from moving averages, annualized yield baselines, and index-level volatility readings. ARKK return is a standalone period metric. Yield values operate on an annualized basis. The income spread mechanically quantifies the difference between equity dividend yield and 10-year Treasury yield, producing a negative value that places bond yields above equity dividends. Mortgage rate is reported at 7.28 with the stated condition label. Volatility indexes are reported at their given levels and regimes. All descriptions reflect calculated relationships between the provided data points without predictive interpretation. Raw data is available in /data.
 
 ---
 
