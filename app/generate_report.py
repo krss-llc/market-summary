@@ -24,9 +24,14 @@ DISCLAIMER = (
     "Seek out the information you need for your future self!"
 )
 
-client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    base_url="https://openrouter.ai/api/v1"
+openrouter_api_key = os.getenv("OPENROUTER_API_KEY", "").strip()
+client = (
+    OpenAI(
+        api_key=openrouter_api_key,
+        base_url="https://openrouter.ai/api/v1"
+    )
+    if openrouter_api_key
+    else None
 )
 
 os.makedirs("data", exist_ok=True)
@@ -159,26 +164,41 @@ Output Format:
 
 import time
 
-summary = "Market risk commentary: Conditions stable across monitored assets."
+summary = "AI summary unavailable. Check the pipeline logs for OpenRouter error details."
 max_retries = 3
-for attempt in range(max_retries):
-    try:
-        response = client.chat.completions.create(
-            model="openrouter/free",
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=1000
-        )
-        if response.choices and response.choices[0].message:
-            summary = response.choices[0].message.content or summary
-        break
-    except Exception as e:
-        if "429" in str(e) and attempt < max_retries - 1:
-            wait_time = (attempt + 1) * 5
-            print(f"Rate limited, waiting {wait_time}s...")
-            time.sleep(wait_time)
-            continue
-        print(f"AI summary failed after {max_retries} attempts: {e}")
-        break
+if client is None:
+    print("AI summary unavailable: OPENROUTER_API_KEY is not configured.")
+    summary = "AI summary unavailable: OPENROUTER_API_KEY is not configured."
+else:
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="openrouter/free",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=1000
+            )
+            if response.choices and response.choices[0].message:
+                content = response.choices[0].message.content
+                if content:
+                    summary = content
+                else:
+                    print("OpenRouter returned an empty AI summary.")
+            break
+        except Exception as e:
+            status_code = getattr(e, "status_code", None)
+            if status_code in (429, 500, 502, 503, 504) and attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 5
+                print(
+                    f"OpenRouter returned HTTP {status_code}; "
+                    f"retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})..."
+                )
+                time.sleep(wait_time)
+                continue
+            print(
+                f"AI summary failed after {attempt + 1}/{max_retries} attempts "
+                f"({type(e).__name__}, HTTP {status_code}): {e}"
+            )
+            break
 
 
 print("Updating RSS...")
