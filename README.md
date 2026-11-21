@@ -1,11 +1,11 @@
 
 # Market Risk Monitor
 
-![Market Regime](https://img.shields.io/badge/Market%20Regime-Recovery-green)
+![Market Regime](https://img.shields.io/badge/Market%20Regime-Downturn-red)
 
-**🟢 Recovery**  
-**Score:** Downturn 0/3 | Recovery 2/3  
-**Last Updated:** 2026-11-10
+**🔴 Downturn Risk**  
+**Score:** Downturn 3/3 | Recovery 0/3  
+**Last Updated:** 2026-11-21
 
 ---
 
@@ -23,7 +23,7 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-Market risk commentary: Conditions stable across monitored assets.
+AI summary unavailable. Check the pipeline logs for OpenRouter error details.
 
 ---
 
