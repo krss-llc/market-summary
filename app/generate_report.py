@@ -177,9 +177,16 @@ else:
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=1000
             )
-            if response.choices and response.choices[0].message:
+            if not response.choices:
+                print(
+                    "OpenRouter returned no completion choices "
+                    f"(model={response.model!r}, response_id={response.id!r})."
+                )
+            elif response.choices[0].message is None:
+                print("OpenRouter returned a completion choice without a message.")
+            else:
                 content = response.choices[0].message.content
-                if content:
+                if content and content.strip():
                     summary = content
                 else:
                     print("OpenRouter returned an empty AI summary.")
