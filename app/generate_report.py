@@ -185,11 +185,37 @@ else:
             elif response.choices[0].message is None:
                 print("OpenRouter returned a completion choice without a message.")
             else:
-                content = response.choices[0].message.content
-                if content and content.strip():
-                    summary = content
-                else:
-                    print("OpenRouter returned an empty AI summary.")
+                choice = response.choices[0]
+                message = choice.message
+                content = message.content
+                if isinstance(content, str) and content.strip():
+                    summary = content.strip()
+                    break
+
+                finish_reason = choice.finish_reason or "unknown"
+                completion_tokens = getattr(response.usage, "completion_tokens", None)
+                refusal = bool(getattr(message, "refusal", None))
+                model = response.model or "unknown"
+                if attempt < max_retries - 1 and not refusal:
+                    wait_time = (attempt + 1) * 5
+                    print(
+                        "OpenRouter returned empty content "
+                        f"(model={model}, finish_reason={finish_reason}, "
+                        f"completion_tokens={completion_tokens}); "
+                        f"retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})..."
+                    )
+                    time.sleep(wait_time)
+                    continue
+
+                print(
+                    "OpenRouter returned empty content "
+                    f"(model={model}, finish_reason={finish_reason}, "
+                    f"completion_tokens={completion_tokens}, refusal={refusal})."
+                )
+                summary = (
+                    "AI summary unavailable: OpenRouter returned empty content "
+                    f"(model={model}, finish_reason={finish_reason})."
+                )
             break
         except Exception as e:
             status_code = getattr(e, "status_code", None)
