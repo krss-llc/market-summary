@@ -5,7 +5,7 @@
 
 **🔴 Downturn Risk**  
 **Score:** Downturn 3/3 | Recovery 0/3  
-**Last Updated:** 2026-11-20
+**Last Updated:** 2026-11-21
 
 ---
 
