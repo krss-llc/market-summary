@@ -5,7 +5,7 @@
 
 **🔴 Downturn Risk**  
 **Score:** Downturn 3/3 | Recovery 0/3  
-**Last Updated:** 2026-11-21
+**Last Updated:** 2026-11-23
 
 ---
 
@@ -23,16 +23,20 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price = 689.81; MA200 = 732.76; price is 42.95 points (5.86%) below MA200.  
-- QQQ price = 608.45; MA100 = 710.68; price is 102.23 points (14.38%) below MA100.  
-- ARKK three-month change = -25.65%; reported price return over the observation period, isolated from yield mechanics.  
-- VIX level = 35.89; index reading in percentage points.  
-- OVX level = 54.12; regime labeled "low", index reading in comparable volatility units.  
-- TNX yield = 4.91%; annualized 10-year Treasury yield baseline.  
-- Mortgage rate = 7.28%; condition labeled "Unfavorable".  
-- Income spread: sp_div_yield = 1.1%; ten_year_yield = 5.04%; spread calculated as 1.1 - 5.04 = -3.94 percentage points. The negative spread mathematically places bond yields above equity dividend yields on the given baseline.  
+- SPY price = 689.81, MA200 = 732.76, deviation = -5.86%.
+- QQQ price = 608.45, MA100 = 710.68, deviation = -14.35%.
+- ARKK three-month change = -25.65%.
+- VIX level = 35.89. OVX level = 54.12, regime = "low".
+- TNX yield = 4.92%. SP dividend yield = 1.05%. Income spread = 1.05 - 4.92 = -3.87 percentage points; regime = "Bond Yield Advantage".
+- Negative income spread means SP dividend yield is below 10-year yield by 3.87 percentage points. The income spread favors bonds over equities.
+- Mortgage rate = 7.28%, condition = "Unfavorable". Mortgage rate minus TNX = 7.28 - 4.92 = 2.36 percentage points.
 
-The dataset provides quantified price deviations from moving averages, annualized yield baselines, and index-level volatility readings. ARKK return is a standalone period metric. Yield values operate on an annualized basis. The income spread mechanically quantifies the difference between equity dividend yield and 10-year Treasury yield, producing a negative value that places bond yields above equity dividends. Mortgage rate is reported at 7.28 with the stated condition label. Volatility indexes are reported at their given levels and regimes. All descriptions reflect calculated relationships between the provided data points without predictive interpretation. Raw data is available in /data.
+Synthesis:
+The current math indicates that equity prices are below long-term moving averages, ARKK shows a -25.65% three-month price change, and VIX is at 35.89. The income spread is -3.87 percentage points, placing it in the Bond Yield Advantage regime and favoring bonds over equities. TNX is at 4.92%, mortgage condition is "Unfavorable" at 7.28%, and OVX regime is "low".
+
+Time horizon clarity: TNX, mortgage rate, and income spread are yield/contract-based measures; SPY, QQQ, and ARKK are price-based measures.
+
+Raw data is available in /data.
 
 ---
 
