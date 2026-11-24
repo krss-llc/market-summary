@@ -5,7 +5,7 @@
 
 **🔴 Downturn Risk**  
 **Score:** Downturn 3/3 | Recovery 0/3  
-**Last Updated:** 2026-11-23
+**Last Updated:** 2026-11-24
 
 ---
 
@@ -23,20 +23,18 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price = 689.81, MA200 = 732.76, deviation = -5.86%.
-- QQQ price = 608.45, MA100 = 710.68, deviation = -14.35%.
-- ARKK three-month change = -25.65%.
-- VIX level = 35.89. OVX level = 54.12, regime = "low".
-- TNX yield = 4.92%. SP dividend yield = 1.05%. Income spread = 1.05 - 4.92 = -3.87 percentage points; regime = "Bond Yield Advantage".
-- Negative income spread means SP dividend yield is below 10-year yield by 3.87 percentage points. The income spread favors bonds over equities.
-- Mortgage rate = 7.28%, condition = "Unfavorable". Mortgage rate minus TNX = 7.28 - 4.92 = 2.36 percentage points.
+- SPY price = 722.29 is below its 200‑day moving average = 732.91.  
+- QQQ price = 651.03 is below its 100‑day moving average = 710.07.  
+- ARKK three‑month change = ‑19.14% (price decline over the last three months).  
+- VIX level = 26.62, which corresponds to higher expected short‑term volatility in equity prices.  
+- TNX yield = 4.9% (annualized yield on the 10‑year Treasury note).  
+- OVX level = 49.19 with regime “low,” indicating low implied volatility in the options market.  
+- Mortgage rate = 7.28% and condition “Unfavorable.”  
+- Income spread: SP dividend yield = 1.05% vs 10‑year yield = 4.92% → spread = ‑3.87%; the negative spread shows bond yield exceeds dividend yield, favoring bonds.  
 
-Synthesis:
-The current math indicates that equity prices are below long-term moving averages, ARKK shows a -25.65% three-month price change, and VIX is at 35.89. The income spread is -3.87 percentage points, placing it in the Bond Yield Advantage regime and favoring bonds over equities. TNX is at 4.92%, mortgage condition is "Unfavorable" at 7.28%, and OVX regime is "low".
+Raw data is available in /data.  
 
-Time horizon clarity: TNX, mortgage rate, and income spread are yield/contract-based measures; SPY, QQQ, and ARKK are price-based measures.
-
-Raw data is available in /data.
+The current math shows equity prices trading below their moving averages while VIX is elevated, indicating higher short‑term volatility; Treasury yields are 4.9% and the negative dividend‑yield spread of –3.87% demonstrates that bond yields currently exceed equity dividend yields, and the mortgage rate of 7.28% is classified as unfavorable.
 
 ---
 
