@@ -5,7 +5,7 @@
 
 **🔴 Downturn Risk**  
 **Score:** Downturn 3/3 | Recovery 0/3  
-**Last Updated:** 2026-11-24
+**Last Updated:** 2026-11-25
 
 ---
 
@@ -23,18 +23,14 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-- SPY price = 722.29 is below its 200‑day moving average = 732.91.  
-- QQQ price = 651.03 is below its 100‑day moving average = 710.07.  
-- ARKK three‑month change = ‑19.14% (price decline over the last three months).  
-- VIX level = 26.62, which corresponds to higher expected short‑term volatility in equity prices.  
-- TNX yield = 4.9% (annualized yield on the 10‑year Treasury note).  
-- OVX level = 49.19 with regime “low,” indicating low implied volatility in the options market.  
-- Mortgage rate = 7.28% and condition “Unfavorable.”  
-- Income spread: SP dividend yield = 1.05% vs 10‑year yield = 4.92% → spread = ‑3.87%; the negative spread shows bond yield exceeds dividend yield, favoring bonds.  
-
-Raw data is available in /data.  
-
-The current math shows equity prices trading below their moving averages while VIX is elevated, indicating higher short‑term volatility; Treasury yields are 4.9% and the negative dividend‑yield spread of –3.87% demonstrates that bond yields currently exceed equity dividend yields, and the mortgage rate of 7.28% is classified as unfavorable.
+- SPY price 718.78 is trading below its 200-day moving average (733.04), a deviation of approximately 1.95%, indicating the current price level is beneath the trailing annual average.  
+- QQQ price 638.1 is trading below its 100-day moving average (709.22), a deviation of approximately 10.0%, indicating the current price level is beneath the trailing trend baseline.  
+- ARKK three-month change of -22.8% reflects a significant capital depreciation metric over the recent quarter period.  
+- VIX level 26.36 represents the current implied volatility regime for S&P 500 index options.  
+- TNX yield 4.85 provides the annualized nominal baseline for comparable tenor.  
+- OVX level 49.39 with regime "low" indicates the current implied volatility state for Nasdaq 100 index options is classified as low.  
+- Mortgage rate 7.21 with condition "Unfavorable" represents the current borrowing cost metric as labeled in the dataset.  
+- Income spread: SP dividend yield 1.06% vs 10-year yield 4.91%, resulting in a spread of -3.85 percentage points. The negative spread mechanically means the 10-year Treasury yield exceeds the SP dividend yield by 3.85 percentage
 
 ---
 
