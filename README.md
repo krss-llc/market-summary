@@ -5,7 +5,7 @@
 
 **🔴 Downturn Risk**  
 **Score:** Downturn 3/3 | Recovery 0/3  
-**Last Updated:** 2026-11-26
+**Last Updated:** 2026-11-27
 
 ---
 
@@ -23,14 +23,14 @@ Seek out the information you need for your future self!
 
 ## AI Risk Commentary
 
-**Factual Signal Breakdown**
+- SPY price (716.7) sits 2.2% below its 200-day moving average (733.16); QQQ price (633.93) sits 10.5% below its 100-day moving average (708.46), indicating QQQ has deviated more from its shorter-term trend anchor than SPY from its longer-term anchor
+- ARKK three-month change of -20.37% aligns directionally with QQQ's larger deviation from its 100-day MA, reflecting correlated drawdown in growth/innovation segments over the same quarterly window
+- VIX at 26.8 implies an annualized 30-day expected volatility of ~26.8% for S&P 500 options, numerically consistent with index prices trading below trend averages
+- TNX yield at 4.94% establishes the annualized risk-free discount baseline; mortgage rate at 7.21% (condition: Unfavorable) represents a 227 basis point spread over TNX, reflecting credit and prepayment risk premiums in residential lending
+- OVX at 48.04 with regime "low" indicates oil-implied volatility remains below historical percentiles despite elevated equity volatility (VIX 26.8), showing commodity and equity fear gauges are not mechanically coupled
+- Income spread: S&P 500 dividend yield (1.04%) minus 10-year yield (4.85%) equals -3.81%; the negative spread mathematically favors bonds over equities for current income, as the annualized Treasury coupon exceeds the equity yield by 3.81 percentage points
 
-- SPY: price 716.70 vs. 200-day MA 733.16 → price deviation = -2.24%.
-- QQQ: price 633.93 vs. 100-day MA 708.46 → price deviation = -10.50%.
-- ARKK: three-month change = -20.37%.
-- VIX: level = 28.29.
-- TNX: yield = 4.85%; ten-year yield input = 4.91%.
-- Income spread: SP dividend yield 1.06% minus
+**Synthesis:** The data shows equity prices (SPY, QQQ, ARKK) trading below trend averages over 100-200 day and 3-month horizons, while the annualized 10-year yield (4.85%) exceeds the S&P 500 dividend yield (1.04%) by 3.81%, creating a mechanical income advantage for bonds. Mortgage rates (7.21%) carry a 227bp spread to the 10-year baseline. VIX (26.8) quantifies elevated equity uncertainty versus OVX (48.04, regime low) showing contained oil volatility. Raw data available in /data.
 
 ---
 
